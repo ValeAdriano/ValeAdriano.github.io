@@ -44,22 +44,26 @@ hr {
   border-color: #FF4A57;
 }
 
-:root {
-  --cor-da-imagem: #7DCE82;
-  --graus-diferenca: 123;
-}
-
-
-.styled {
-  width: 300px;
+.abtm{
+  width: 45vw;
   border: 0;
+  padding: 0.5vw;
   line-height: 2.5;
-  padding: 0 20px;
   font-size: 1.5rem;
   text-align: center;
   color: #f7f7fa;
   background-color: #FF4A57;
+}
 
+.styled {
+  width: 60vw;
+  border: 0;
+  padding: 0.5vw;
+  line-height: 2.5;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #f7f7fa;
+  background-color: #FF4A57;
 }
 
 * {
@@ -75,36 +79,42 @@ hr {
 }
 
 .child {
-  width: 70%;
-  height: auto;
-  padding: 100px;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-top: 20vh;
 }
 
 .child2 {
-  padding-top: 200px;
-  width: 60vw;
-  height: auto;
-  padding: 50px;
-  background-color: #2B2D41;
+  width: 100vw;
+  height: 100vh;
+  background-color: #23263A;
+  align-items: center;
+  justify-content: center;
 }
 
 .child5 {
   background-color: #23263A;
   padding: 200px;
-
+  
 }
 
 .child3 {
-  width: 60%;
-  height: auto;
-  padding: 50px;
-  background-color: #2B2D41;
-
+  width: 100vw;
+  height: 110vh;
+  text-align: center;
+  justify-content: center;
+  
+  
+  
 }
 
 .child4 {
-  width: 60%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   padding: 50px;
 }
 
@@ -115,8 +125,27 @@ hr {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
+.box{
+  background-color: #2B2D41;
+  height: auto;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  align-items: center;
+}
+
+.contato_div{
+  margin: 15vw;
+}
 
 form {
   width: 100%;
