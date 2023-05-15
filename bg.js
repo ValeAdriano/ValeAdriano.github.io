@@ -6,7 +6,7 @@ canvas.height = window.innerHeight;
 
 var stars = [], // Array that contains the stars
     FPS = 30, // Frames per second
-    x = 100, // Number of stars
+    x = 75, // Number of stars
     mouse = {
       x: 0,
       y: 0
