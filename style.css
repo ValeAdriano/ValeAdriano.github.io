@@ -44,7 +44,7 @@ hr {
   color: #FF4A57;
   border-color: #FF4A57;
 }
-@media (max-width: 1240px){
+@media (max-width: 2480px){
 
   .abtm{
     width: auto;
@@ -81,7 +81,7 @@ hr {
     height: 100vh;
     padding-top: 0vh;
     margin-bottom: 10vh;
-    padding-right: 50vw;
+    padding-right: 75vw;
     margin-top: 30vh;
     margin-left: 10vw;
     
