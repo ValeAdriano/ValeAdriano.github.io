@@ -151,7 +151,31 @@ hr {
   .icons{
     width: 40px;
   }
+  .wrapper-icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 10px;
+  }
+  
+  .wrapper-icons .icons{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5vh;   
+  
+  }
+  
+  .socia-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 5vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+  }
 }
+
 
 
 @media (max-width: 500px) {
@@ -234,6 +258,31 @@ hr {
     margin-right: 15vw;
     align-items: center;
     overflow-y: hidden;
+  }
+  .wrapper-icons{
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .wrapper-icons .icons{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5vh;   
+  
+  }
+  
+  .socia-wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5vh;
+    
+    
+    
   }
 }
 form {
@@ -358,29 +407,4 @@ form{
   width: 100vw;
 }
 
-
-.wrapper-icons{
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  padding: 10px;
-}
-
-.wrapper-icons .icons{
-  width: 40px;
-  height: 40px;
-  margin-bottom: 5vh;   
-
-}
-
-.socia-wrapper{
-  display: flex;
-  justify-content: space-evenly;
-  padding: 10px;
-  margin-bottom: 5vh;
-  margin-left: 25vw;
-  margin-right: 25vw;
-
-}
 
